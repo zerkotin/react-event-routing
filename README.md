@@ -20,7 +20,8 @@ How do we make this magic happen?
 - [RoutableView](RoutableView.jsx)
 
 
-What else can we do with the EventManager?! we can send events cross components.  
+# Global Events
+Now we can send events cross components.  
 Consider the next 2 files:
 
 ```
