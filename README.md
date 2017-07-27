@@ -8,8 +8,14 @@ What is event driven routing?
 The Event dispatch call for routing change on 'main-routable-view'  
 `Events.dispatch('route', {target: 'main-routable-view', view: WelcomeView});`
 
-The RoutableView with the name 'main-routable-view'
+The RoutableView with the name 'main-routable-view'  
 `<RoutableView name="main-routable-view" />`
+
+the result: 'main-routable-view' will load 'WelcomeView'  
+
+How do we make this magic happen?
+
+
 
 
 
