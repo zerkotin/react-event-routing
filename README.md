@@ -27,7 +27,7 @@ import Events from from './Events.js';
 
 class SomeView extends React.Component {
   componentDidMount() {
-    Events.on('user-data', data => setState({data: data}));
+    Events.on('user-data', data => setState({data: data})); //listen to 'user-data' event
   }
   
   render() {
@@ -40,7 +40,7 @@ class SomeView extends React.Component {
 ```
 import Events from './Events.js';
 
-fetch('user.json').then(res => Events.dispatch('user-data', res.data));
+fetch('user.json').then(res => Events.dispatch('user-data', res.data)); //get data from server and dispatch an event
 ```
 
 
