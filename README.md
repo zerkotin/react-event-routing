@@ -16,7 +16,7 @@ The result: 'main-routable-view' will load 'WelcomeView'
 
 How do we make this magic happen?
 
-- [EventManager](Events.js)
+- [Events](Events.js)
 - [RoutableView](RoutableView.jsx)
 
 
